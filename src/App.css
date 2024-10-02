@@ -1,0 +1,302 @@
+#hero {
+    background-color: rgb(242, 242, 242);
+}
+
+#hero h1 {
+    font-family: "Amatic SC", sans-serif;
+    line-height: 10px;
+}
+
+#hero p {
+    font-family: "Roboto", system-ui;
+    color: gray;
+}
+
+/* ABOUT SECTION  */
+
+#about-heading {
+    /* font-family: "Shadows Into Light", cursive; */
+    font-family: "Amatic SC", sans-serif;
+    font-size: 44px;
+    font-weight: 100;
+}
+
+#about-contact,
+#about-number {
+    font-size: 24px;
+}
+
+/* CHOOSE SECTION  */
+
+#choose {
+    background-color: rgb(242, 242, 242);
+}
+
+#choose-item1 {
+    background-color: rgb(206, 18, 18);
+}
+
+.choose-items {
+    background-color: white;
+}
+
+.choose-items img {
+    background-color: white;
+}
+
+
+/* STATS SECTION  */
+
+#stats {
+    background-image: linear-gradient(rgba(11, 11, 11, 0.5), rgba(11, 11, 11, 0.5)), url("/src/assets/stats-bg.jpg");
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#stats span {
+    font-size: 48px;
+}
+
+#stats p {
+    color: rgb(194, 192, 193);
+}
+
+
+/* CHEFS */
+
+#chefs h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 44px;
+}
+
+.chef-name {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.chefs-team {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* BOOKING  */
+
+#booking h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 44px;
+}
+
+#booking-form {
+    background-color: rgb(248, 248, 248);
+}
+
+#booking-form #name,
+#email,
+#number,
+#date,
+#time,
+#count,
+#message {
+    width: 250px;
+}
+
+
+
+#booking-form button {
+    background-color: rgb(206, 18, 18);
+    font-size: 16px;
+}
+
+/* CONTACTS */
+
+.contact-items {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-image {
+    height: 30px;
+    width: 60px;
+}
+
+.contact-image div {
+    background-color: rgb(206, 18, 18);
+}
+
+#form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#form textarea {
+    height: 150px;
+}
+
+#form-button {
+    background-color: rgb(206, 18, 18);
+}
+
+/* FOOTER  */
+
+#footer {
+    background-color: rgb(31, 31, 36);
+    font-family: "Roboto", sans-serif;
+}
+
+#footer-icons {
+    color: rgb(143, 143, 139);
+}
+
+.footer-top-icons i {
+    color: rgb(206, 18, 18);
+}
+
+.footer-span {
+    color: rgb(206, 18, 18);
+}
+
+
+
+@media only screen and (min-width: 576px) {
+
+    #booking-form #name,
+    #email,
+    #number,
+    #date,
+    #time,
+    #count,
+    #message {
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #hero h1 {
+        font-size: 60px;
+        line-height: 40px;
+    }
+
+    #hero p {
+        font-size: 20px;
+    }
+
+    #booking-form #name,
+    #email,
+    #number,
+    #date,
+    #time,
+    #count {
+        width: 300px;
+    }
+
+    #booking-form #message {
+        width: 650px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #choose-item1 {
+        height: 300px;
+    }
+
+    #form-left,
+    #form-right {
+        height: 355px;
+    }
+
+    #booking-form #name,
+    #email,
+    #number,
+    #date,
+    #time,
+    #count {
+        width: 150px;
+    }
+
+    #booking-form #message {
+        width: 560px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #about-items {
+        position: relative;
+    }
+
+    #about-video {
+        position: absolute;
+        left: 640px;
+        top: 380px
+    }
+
+    #choose {
+        margin-top: 100px;
+    }
+
+    #form-left,
+    #form-right {
+        height: 438px;
+    }
+
+    #booking-form #name,
+    #email,
+    #number,
+    #date,
+    #time,
+    #count {
+        width: 180px;
+    }
+
+    #booking-form #message {
+        width: 680px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #about-video {
+        left: 750px;
+        top: 300px
+    }
+
+    #form-left,
+    #form-right {
+        height: 518px;
+    }
+
+    #booking-form #name,
+    #email,
+    #number,
+    #date,
+    #time,
+    #count {
+        width: 220px;
+    }
+
+    #booking-form #message {
+        width: 800px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #about-video {
+        left: 815px;
+        top: 300px
+    }
+
+    #booking-form img {
+        height: 565px;
+    }
+
+    #booking-form #name,
+    #email,
+    #number,
+    #date,
+    #time,
+    #count {
+        width: 250px;
+    }
+
+    #booking-form #message {
+        width: 880px;
+    }
+}
